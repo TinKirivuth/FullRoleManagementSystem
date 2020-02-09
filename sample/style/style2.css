@@ -1,0 +1,155 @@
+/*use for loading pop up*/
+.popup{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	top: 0px;
+	left: 0px;
+	z-index: 3000;
+}
+/*use for show form action*/
+.popup-form{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.7);
+	top: 0px;
+	left: 0px;
+	z-index: 2000;
+}
+.frm-popup{
+	background:white;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin-top: 0px;
+	overflow: auto;
+	padding: 0;
+	height: 100%;
+	width: 50%;
+	float: none;
+	margin:auto;
+}
+.frm-popup .head{
+	border-bottom: 1px solid #ccc;
+	padding:10px;
+	color: #000;
+	float: left;
+	width: 100%;
+	background-color: rgb(240, 240, 240);
+}
+.frm-popup .head .frm-title{
+	padding-left: 5px;
+	float: left;
+	color: rgb(120, 120, 120);
+	font-size: 15px;
+}
+.frm-popup .head .btn-close{
+	opacity: 0.6;
+	margin-top: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	float: right;
+	color:rgba(0,0,0,0.5);
+}
+.frm-popup .head .btn-close:hover{
+	opacity: 1;
+}
+.frm-popup .frm-body{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 15px 15px 30px 15px;
+	float: left;
+	overflow: hidden;
+}
+.frm-popup label{
+	float: left;
+	padding-top:5px;
+	padding-right: 10px;
+	width: 100%;
+	color: #3d3e40;
+	font-size: 14px;
+}
+.frm-popup label sup{
+	color:red;
+	padding-left: 2px;
+}
+.frm-popup .frm-control{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid rgba(197,214,222,.7);
+    color: #343434!important;
+	float: left;
+	font-size: 14px;
+	outline: none;
+}
+.frm-popup .frm-footer{
+	border-top: 1px solid #eee;
+	padding:15px 10px;
+	float: left;
+	width: 100%;
+}
+/* End Popup Form Format */
+/*Photo*/
+.img-box,
+.img-box1,
+.img-box2,
+.img-box3,
+.img-box4,
+.img-box5,
+.img-box6,
+.img-box7,
+.img-box8,
+.img-box9,
+.img-box10{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid #ccc;*/
+	float: left;
+	background-image: url("../images/download.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img-box input,
+.img-box1 input,
+.img-box2 input,
+.img-box3 input,
+.img-box4 input,
+.img-box5 input,
+.img-box6 input,
+.img-box7 input,
+.img-box8 input,
+.img-box9 input,
+.img-box10 input{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+/* End Photo */
+/*Extra Large Device*/
+@media (min-width: 1200px) {
+	
+}
+
+/*Large Device*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+	
+}
+
+/*Medium Device*/
+@media (min-width: 768px) and (max-width: 991.98px){
+	
+}
+
+/*Small Device*/
+@media (min-width: 576px) and (max-width: 767.98px){
+	
+}
+
+/*Extra Small Device*/
+@media (max-width: 575.98px){
+	
+}	
